@@ -1,0 +1,40 @@
+.content {
+    width: 100%;
+    padding-top: 3.75rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+}
+
+.info > strong {
+    color: var(--blue);
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.info > div {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding: 0.175rem 0.5rem;
+    border-radius: 999px;
+}
+
+.info + .info {
+    justify-content: flex-end;
+}
+
+.info + .info > strong {
+    color: var(--purple);
+}
